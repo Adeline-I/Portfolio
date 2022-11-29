@@ -3,18 +3,8 @@ mat-sidenav {
     width: 15rem;
     border-right: none;
     border-radius: 0.5rem;
-    padding: 1rem;
+    padding-top: 1rem;
     text-align: center;
-}
-
-.sidenav-light-color {
-    background-color: #3F51B5!important;
-    color: white;
-}
-
-.sidenav-dark-color {
-    background-color: #607D8B!important;
-    color: white;
 }
 
 mat-sidenav-content {
@@ -32,12 +22,14 @@ mat-sidenav-content {
 }
 
 .menu-button {
-    width: 100%;
     display: flex;
     align-items: center;
     justify-content: flex-start;
-    font-size: 1rem;
-
+    font-size: medium;
+    border-radius: 0;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    
     mat-icon {
         margin-right: 0.5rem;
     }
@@ -52,20 +44,21 @@ mat-sidenav-content {
 .name {
     margin: 0;
     margin-top: 0.5rem;
-    font-weight: normal;
+    font-weight: bold;
+    font-size: medium;
 }
 
 .designation {
     margin-top: 0.3rem;
-    font-size: 0.7rem;
-    color: lightgrey;
+    font-size: small;
+    margin-bottom: 2rem;
 }
 
-mat-divider {
-    margin-top: 1rem;
-    margin-bottom: 1rem;
-    background-color: rgba(255, 255, 255, 0.5);
-}
+// mat-divider {
+//     margin-top: 1rem;
+//     margin-bottom: 1rem;
+//     background-color: rgba(255, 255, 255, 0.5);
+// }
 
 @media(min-width: 768px){
     mat-sidenav-content {
@@ -75,4 +68,41 @@ mat-divider {
         height: calc(100vh - 4rem);
         margin-left: 2rem;
     }
+}
+
+//LIGHT THEME
+
+.sidenav-light-color {
+    background-color: #ce93d8!important;
+}
+
+.sidenav-light-color a {
+    border-bottom: 0.1rem solid white;
+}
+
+.sidenav-light-color a:hover, .sidenav-light-color a.selected {
+    background-color: white;
+}
+
+.sidenav-light-color a.first-menu-button {
+    border-top: 0.1rem solid white;
+}
+
+//DARK THEME
+
+.sidenav-dark-color {
+    background-color: #4a148c!important;
+    color: white;
+}
+
+.sidenav-dark-color a {
+    border-bottom: 0.1rem solid #212121;
+}
+
+.sidenav-dark-color a:hover, .sidenav-dark-color a.selected {
+    background-color: #212121;
+}
+
+.sidenav-dark-color a.first-menu-button {
+    border-top: 0.1rem solid #212121;
 }

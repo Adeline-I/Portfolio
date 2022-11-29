@@ -8,7 +8,6 @@ import { MatSidenav } from '@angular/material/sidenav';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent implements OnInit {
-  title = 'Portfolio';
 
   @ViewChild(MatSidenav) sidenav!: MatSidenav;
 
@@ -26,7 +25,9 @@ export class AppComponent implements OnInit {
   }
 
   setDefaultTheme() {
-    if (localStorage.getItem('theme') && localStorage.getItem('sidenavColor')) {
+    if (localStorage.getItem('theme') &&
+        localStorage.getItem('sidenavColor')
+      ) {
       this.theme = localStorage.getItem('theme') as string;
       const body = document.getElementsByTagName('body')[0];
       body.classList.add(this.theme);
