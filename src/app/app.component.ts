@@ -15,10 +15,8 @@ export class AppComponent implements OnInit {
   sidenavColor: string = "sidenav-light-color";
 
   constructor(
-    private observer: BreakpointObserver
-  ) {
-
-  }
+    private observer: BreakpointObserver,
+  ) {}
 
   ngOnInit(): void {
     this.setDefaultTheme();

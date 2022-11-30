@@ -17,27 +17,27 @@
             <h4 class="name">Adeline IZRI</h4>
             <p class="designation">Développeuse Web et Web Mobile</p>
 
-            <a href="" mat-button class="menu-button first-menu-button selected">
+            <a [routerLink]="['home']" [routerLinkActive]="['selected']" mat-button class="menu-button first-menu-button">
                 <mat-icon>home</mat-icon>
                 <span>Accueil</span>
             </a>
-            <a href="" mat-button class="menu-button">
+            <a [routerLink]="['about']" [routerLinkActive]="['selected']" mat-button class="menu-button">
                 <mat-icon>person</mat-icon>
                 <span>À Propos</span>
             </a>
-            <a href="" mat-button class="menu-button">
+            <a [routerLink]="['skills']" [routerLinkActive]="['selected']" mat-button class="menu-button">
                 <mat-icon>info</mat-icon>
                 <span>Compétences</span>
             </a>
-            <a href="" mat-button class="menu-button">
+            <a [routerLink]="['education']" [routerLinkActive]="['selected']" mat-button class="menu-button">
                 <mat-icon>home</mat-icon>
                 <span>Parcours</span>
             </a>
-            <a href="" mat-button class="menu-button">
+            <a [routerLink]="['making']" [routerLinkActive]="['selected']" mat-button class="menu-button">
                 <mat-icon>person</mat-icon>
                 <span>Réalisations</span>
             </a>
-            <a href="" mat-button class="menu-button">
+            <a [routerLink]="['contact']" [routerLinkActive]="['selected']" mat-button class="menu-button">
                 <mat-icon>info</mat-icon>
                 <span>Contact</span>
             </a>
@@ -45,7 +45,6 @@
         <mat-sidenav-content>
             <div class="content mat-elevation-z8">
                 <router-outlet></router-outlet>
-                Contenu principal
             </div>
         </mat-sidenav-content>
     </mat-sidenav-container>
