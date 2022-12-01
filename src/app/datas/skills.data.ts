@@ -168,5 +168,13 @@ export const SKILLS: Skill[] = [
         name: "Symfony 5",
         picture: "https://img.icons8.com/external-tal-revivo-bold-tal-revivo/96/000000/external-symfony-is-a-php-web-application-framework-logo-bold-tal-revivo.png",
         alt: "logo Symfony"
+    },
+    {
+        id: 22,
+        part: "Framework",
+        type: "Framework",
+        name: "Angular",
+        picture: "https://img.icons8.com/color/96/null/angularjs.png",
+        alt: "logo Angular"
     }
 ];
