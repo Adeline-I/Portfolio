@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Licorice&display=swap');
+
+#home {
+
+display: flex;
+flex-direction: column;
+}
+
+#home .name {
+    text-align: center;
+    font-family: 'Licorice', cursive;
+    font-weight: bold;
+    font-size: 5rem;
+}
+
+#home .nameJob {
+    height: 2rem;
+    text-align: center;
+    font-size: x-large;
+}
+
+#home .description {
+    text-align: center;
+    font-size: x-large;
+}
