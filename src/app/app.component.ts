@@ -13,6 +13,7 @@ export class AppComponent implements OnInit {
 
   theme: string = "light-theme";
   sidenavColor: string = "sidenav-light-color";
+  backgroundColor: string = "background-light";
 
   constructor(
     private observer: BreakpointObserver,
@@ -24,7 +25,8 @@ export class AppComponent implements OnInit {
 
   setDefaultTheme() {
     if (localStorage.getItem('theme') &&
-        localStorage.getItem('sidenavColor')
+        localStorage.getItem('sidenavColor') &&
+        localStorage.getItem('backgroundColor')
       ) {
       this.theme = localStorage.getItem('theme') as string;
       const body = document.getElementsByTagName('body')[0];
@@ -33,6 +35,10 @@ export class AppComponent implements OnInit {
       this.sidenavColor = localStorage.getItem('sidenavColor') as string;
       const sidenav = document.getElementsByTagName('mat-sidenav')[0];
       sidenav.classList.add(this.sidenavColor);
+
+      this.backgroundColor = localStorage.getItem('backgroundColor') as string;
+      const background = document.getElementsByTagName('mat-sidenav-container')[0];
+      background.classList.add(this.backgroundColor);
     }
   }
 
@@ -52,6 +58,14 @@ export class AppComponent implements OnInit {
                     this.sidenavColor = 'sidenav-light-color';
     sidenav.classList.add(this.sidenavColor);
     localStorage.setItem('sidenavColor', this.sidenavColor);
+
+    const background = document.getElementsByTagName('mat-sidenav-container')[0];
+    background.classList.remove(this.backgroundColor);
+    this.backgroundColor === 'background-light' ?
+                    this.backgroundColor = 'background-dark' :
+                    this.backgroundColor = 'background-light';
+    background.classList.add(this.backgroundColor);
+    localStorage.setItem('backgroundColor', this.backgroundColor);
   }
 
   ngAfterViewInit() {

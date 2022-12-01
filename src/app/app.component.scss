@@ -72,6 +72,15 @@ mat-sidenav-content {
 
 //LIGHT THEME
 
+.background-light {
+    background-image: linear-gradient(rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0.7)),
+                    url(../assets/images/background.jpg);
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
 .sidenav-light-color {
     background-color: #ce93d8!important;
 }
@@ -90,9 +99,17 @@ mat-sidenav-content {
 
 //DARK THEME
 
+.background-dark {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
+                    url(../assets/images/background.jpg);
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
 .sidenav-dark-color {
     background-color: #4a148c!important;
-    color: white;
 }
 
 .sidenav-dark-color a {
