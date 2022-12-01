@@ -20,7 +20,6 @@ import { EducationComponent } from './pages/education/education.component';
 import { MakingComponent } from './pages/making/making.component';
 import { ContactComponent } from './pages/contact/contact.component';
 import { NotFoundComponent } from './pages/not-found/not-found.component';
-import { NgxTypedJsModule } from 'ngx-typed-js';
 
 @NgModule({
   declarations: [
@@ -44,8 +43,7 @@ import { NgxTypedJsModule } from 'ngx-typed-js';
     MatSlideToggleModule,
     MatTabsModule,
     MatToolbarModule,
-    RouterModule,
-    NgxTypedJsModule
+    RouterModule
   ],
   providers: [],
   bootstrap: [AppComponent]
