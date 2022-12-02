@@ -20,10 +20,11 @@ export class HomeComponent implements OnInit {
     let current_length = that.typewriter_display.length;
     if (current_length < total_length) {
       that.typewriter_display += that.typewriter_text[current_length];
-      setTimeout(that.typingCallback, 175, that);
+      setTimeout(that.typingCallback, 200, that);
     } else {
-      that.typewriter_display = "";
-      setTimeout(that.typingCallback, 175, that);
+      
+      setTimeout(() => {that.typewriter_display = "";}, 1000);
+      setTimeout(that.typingCallback, 1000, that);
     }
   }
 
