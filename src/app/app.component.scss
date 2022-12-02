@@ -61,6 +61,12 @@ mat-sidenav-content {
 // }
 
 @media(min-width: 768px){
+    .content {
+        margin-left: 1rem;
+    }
+}
+
+@media(min-width: 800px){
     mat-sidenav-content {
         height: 100vh;
     }
@@ -83,7 +89,7 @@ mat-sidenav-content {
 
 .background-light .bgShadow {
     background-color: white;
-    opacity: 0.5;
+    opacity: 0.7;
 }
 
 .sidenav-light-color {

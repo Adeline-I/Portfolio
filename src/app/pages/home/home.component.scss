@@ -11,19 +11,56 @@ flex-direction: column;
     font-family: 'Licorice', cursive;
     font-weight: bold;
     font-size: 5rem;
-    margin-bottom: 3rem;
 }
 
 #home .nameJob {
-    height: 2rem;
+    height: 6rem;
     text-align: center;
-    font-size: x-large;
-    margin-bottom: 3rem;
+    font-size: 2rem;
+    line-height: 3rem;
+    margin: 3rem 0;
 }
 
 #home .description {
     text-align: center;
-    font-size: x-large;
+    font-size: 1.5rem;
     line-height: 2.5rem;
-    padding: 0 4.5rem;
+    padding: 0 1.5rem;
+}
+
+@media(min-width: 768px){
+    #home .name {
+        font-size: 7rem;
+    }
+    
+    #home .nameJob {
+        font-size: 3rem;
+        line-height: 4rem;
+        margin: 5rem 0;
+        padding: 0 1rem;
+    }
+    
+    #home .description {
+        font-size: xx-large;
+        line-height: 3rem;
+    }
+}
+
+@media(min-width: 992px){
+    #home .name {
+        font-size: 7rem;
+    }
+    
+    #home .nameJob {
+        height: 2rem;
+        font-size: 3rem;
+        line-height: 4rem;
+        margin: 5rem 0;
+    }
+    
+    #home .description {
+        font-size: xx-large;
+        line-height: 2.7rem;
+        padding: 0 4.5rem;
+    }
 }
