@@ -45,7 +45,7 @@ body {
 
 //LIGHT THEME
 $my-app-primary: mat.define-palette(mat.$purple-palette, 200);
-$my-app-accent: mat.define-palette(mat.$deep-orange-palette, 200, 100, 400);
+$my-app-accent: mat.define-palette(mat.$deep-orange-palette, A200, A100, A400);
 $my-app-warn: mat.define-palette(mat.$red-palette);
 
 $my-app-theme: mat.define-light-theme(
