@@ -11,7 +11,11 @@
     </mat-toolbar>
     <mat-sidenav-container>
         <mat-sidenav #sidenav="matSidenav" class="mat-elevation-z8">
-            <mat-slide-toggle (change)="switchTheme()" class="appBth"></mat-slide-toggle><br>
+            <div class="themeMode">
+                <mat-icon>light_mode</mat-icon>
+                <mat-slide-toggle (change)="switchTheme()" class="appBth"></mat-slide-toggle>
+                <mat-icon>dark_mode</mat-icon>
+            </div>
             
             <img class="avatar mat-elevation-z8" src="../assets/images/profile_picture.jpg" />
             <h4 class="name">Adeline IZRI</h4>
@@ -22,23 +26,23 @@
                 <span>Accueil</span>
             </a>
             <a [routerLink]="['about']" [routerLinkActive]="['selected']" mat-button class="menu-button">
-                <mat-icon>person</mat-icon>
+                <mat-icon>info</mat-icon>
                 <span>À Propos</span>
             </a>
             <a [routerLink]="['skills']" [routerLinkActive]="['selected']" mat-button class="menu-button">
-                <mat-icon>info</mat-icon>
+                <mat-icon>psychology</mat-icon>
                 <span>Compétences</span>
             </a>
             <a [routerLink]="['education']" [routerLinkActive]="['selected']" mat-button class="menu-button">
-                <mat-icon>home</mat-icon>
+                <mat-icon>school</mat-icon>
                 <span>Parcours</span>
             </a>
             <a [routerLink]="['making']" [routerLinkActive]="['selected']" mat-button class="menu-button">
-                <mat-icon>person</mat-icon>
+                <mat-icon>construction</mat-icon>
                 <span>Réalisations</span>
             </a>
             <a [routerLink]="['contact']" [routerLinkActive]="['selected']" mat-button class="menu-button">
-                <mat-icon>info</mat-icon>
+                <mat-icon>mail</mat-icon>
                 <span>Contact</span>
             </a>
         </mat-sidenav>

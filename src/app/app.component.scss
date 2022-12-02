@@ -7,6 +7,12 @@ mat-sidenav {
     text-align: center;
 }
 
+.themeMode {
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 0.5rem;
+}
+
 mat-sidenav-content {
     height: calc(100vh - 3.5rem);
 }
