@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
-import { SKILLS } from 'src/app/datas/skills.data';
 import { Skill } from 'src/app/models/skills.model';
+import { SkillsService } from './skills.service';
 
 @Component({
   selector: 'app-skills',
@@ -9,17 +9,13 @@ import { Skill } from 'src/app/models/skills.model';
 })
 export class SkillsComponent implements OnInit {
 
-  skillList: Skill[] = SKILLS;
+  skillList!: Skill[];
 
-  constructor() { }
+  constructor(
+    private skillsService: SkillsService
+  ) { }
 
   ngOnInit(): void {
-    console.log(this.skillList);
-    this.selectSkill(this.skillList[0]);
+    this.skillList = this.skillsService.getSkillsList();
   }
-
-  selectSkill(skill: Skill) {
-    console.log(`${skill.name}`);
-  }
-
 }
