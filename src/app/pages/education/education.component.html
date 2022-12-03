@@ -1,1 +1,29 @@
-<p>Education</p>
+<div id="education">
+    <h1 class="title">
+        Parcours
+    </h1>
+    <mat-divider></mat-divider>
+    <div class="container">
+        <mat-card *ngFor="let education of educationList" class="mat-elevation-z8">
+            <div class="image">
+                <img width="100" [src]="education.picture" [alt]="education.place">
+            </div>
+            <mat-card-header>
+                <mat-card-title>{{ education.degree }}</mat-card-title>
+            </mat-card-header>
+            <mat-card-content>
+                <div class="description">
+                    <p>
+                        <span class="cardSubtitle">Niveau :</span> {{ education.grade }}
+                    </p>
+                    <p>
+                        <span class="cardSubtitle">Année :</span> {{ education.date }}
+                    </p>
+                    <p>
+                        <span class="cardSubtitle">Lieu :</span> {{ education.place }}
+                    </p>
+                </div>
+            </mat-card-content>
+        </mat-card>
+    </div>
+</div>

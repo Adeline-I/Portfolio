@@ -7,7 +7,7 @@ export const EDUCATIONS: Education[] = [
         degree: "FORMATION DÉVELOPPEUR D'APPLICATIONS MOBILES",
         grade: "POEC",
         place: "La Manu, Amiens",
-        picture: "../../assets/images/lamanu.svg"
+        picture: "../../assets/images/lamanu.png"
     },
     {
         id: 2,
@@ -15,7 +15,7 @@ export const EDUCATIONS: Education[] = [
         degree: "FORMATION DÉVELOPPEUR WEB ET WEB MOBILE",
         grade: "Bac+2",
         place: "La Manu, Amiens",
-        picture: "../../assets/images/lamanu.svg"
+        picture: "../../assets/images/lamanu.png"
     },
     {
         id: 3,

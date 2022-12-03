@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
-import { EDUCATIONS } from 'src/app/datas/education.data';
 import { Education } from 'src/app/models/education.model';
+import { EducationService } from './education.service';
 
 @Component({
   selector: 'app-education',
@@ -9,17 +9,13 @@ import { Education } from 'src/app/models/education.model';
 })
 export class EducationComponent implements OnInit {
 
-  educationList: Education[] = EDUCATIONS;
+  educationList!: Education[];
 
-  constructor() { }
+  constructor(
+    private educationService: EducationService
+  ) { }
 
   ngOnInit(): void {
-    console.table(this.educationList);
-    this.selectEducation(this.educationList[1]);
+    this.educationList = this.educationService.getEducationList();
   }
-
-  selectEducation(education: Education) {
-    console.log(`${education.degree}`);
-  }
-
 }
