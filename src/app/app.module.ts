@@ -11,7 +11,6 @@ import { MatDividerModule } from '@angular/material/divider';
 import { MatIconModule } from '@angular/material/icon';
 import { MatSidenavModule } from '@angular/material/sidenav';
 import { MatSlideToggleModule } from '@angular/material/slide-toggle';
-import { MatTabsModule } from '@angular/material/tabs';
 import { MatToolbarModule } from '@angular/material/toolbar';
 
 import { HomeComponent } from './pages/home/home.component';
@@ -42,7 +41,6 @@ import { NotFoundComponent } from './pages/not-found/not-found.component';
     MatIconModule,
     MatSidenavModule,
     MatSlideToggleModule,
-    MatTabsModule,
     MatToolbarModule,
     RouterModule
   ],
