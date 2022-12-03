@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
-import { MAKINGS } from 'src/app/datas/making.data';
 import { Making } from 'src/app/models/making.model';
+import { MakingService } from './making.service';
 
 @Component({
   selector: 'app-making',
@@ -9,17 +9,13 @@ import { Making } from 'src/app/models/making.model';
 })
 export class MakingComponent implements OnInit {
 
-  makingList: Making[] = MAKINGS;
+  makingList!: Making[];
 
-  constructor() { }
+  constructor(
+    private makingService: MakingService
+  ) { }
 
   ngOnInit(): void {
-    console.table(this.makingList);
-    this.selectMaking(this.makingList[1]);
+    this.makingList = this.makingService.getMakingList();
   }
-
-  selectMaking(making: Making) {
-    console.log(`${making.title}`);
-  }
-
 }
