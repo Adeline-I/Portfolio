@@ -20,19 +20,38 @@ mat-divider {
     font-size: 2rem;
 }
 
-#contact .description {
-    padding: 0 1rem;
+.container {
     display: flex;
     flex-direction: column;
+    align-items: center;
+}
 
-    a {
-        margin-top: 1.5rem;
-        margin-bottom: 9rem;
-        display: flex;
-        justify-content: center;
-        text-align: center;
-        font-size: x-large;
-    }
+mat-card {
+    max-width: 80%;
+    text-align: center;
+    margin: 1rem 0;
+}
+
+.image {
+    display: flex;
+    justify-content: center;
+}
+
+mat-card-header {
+    display: flex;
+    justify-content: center;
+    margin-top: 1rem;
+}
+
+mat-card-content {
+    min-height: 5rem;
+}
+
+mat-card-actions {
+    min-height: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 @media(min-width: 768px){
@@ -40,48 +59,33 @@ mat-divider {
         font-size: 2.5rem;
     }
 
-    mat-divider {
-        margin-top: 1rem;
-        margin-bottom: 10rem;
+    .container {
+        padding: 4rem 0;
     }
 
-    #contact .description {
-        display: flex;
-        flex-direction: row;
-    
-        a {
-            margin: 0 10rem;
-            margin-bottom: 15rem;
-            font-size: xx-large;
-        }
+    mat-card {
+        max-width: 60%;
     }
 }
 
 @media(min-width: 800px){
-    mat-divider {
-        margin-bottom: 5rem;
-    }
-
-    #contact .description {
-        display: flex;
-        flex-direction: column;
+    mat-card {
+        margin: 3rem 0;
     }
 }
 
 @media(min-width: 992px){
     mat-divider {
         margin-top: 1rem;
-        margin-bottom: 7rem;
     }
 
-    #contact .description {
+    .container {
         display: flex;
         flex-direction: row;
-    
-        a {
-            margin: 0 15rem;
-            margin-bottom: 12rem;
-            font-size: xx-large;
-        }
+        justify-content: space-evenly;
+    }
+
+    mat-card {
+        max-width: 30%;
     }
 }
