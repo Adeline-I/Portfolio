@@ -21,6 +21,8 @@ mat-divider {
 }
 
 .container {
+    scroll-behavior: auto;
+    overflow: auto;
     display: flex;
     flex-direction: column;
     align-items: center;
