@@ -1,1 +1,26 @@
-<p>Making</p>
+<div id="making">
+    <h1 class="title">
+        Réalisations
+    </h1>
+    <mat-divider></mat-divider>
+    <div class="container">
+        <mat-card *ngFor="let making of makingList" class="mat-elevation-z8">
+            <div class="image">
+                <img height="200" [src]="making.picture1" [alt]="making.alt">
+            </div>
+            <mat-card-header>
+                <mat-card-title>{{ making.title }}</mat-card-title>
+            </mat-card-header>
+            <mat-card-content>
+                <div class="description">
+                    <p>
+                        <span class="cardSubtitle">Description :</span> {{ making.description }}
+                    </p>
+                </div>
+            </mat-card-content>
+            <mat-card-actions>
+                <button mat-raised-button color="primary" (click)="openDialog(making.title, making.description, making.link)">En savoir +</button>
+            </mat-card-actions>
+        </mat-card>
+    </div>
+</div>

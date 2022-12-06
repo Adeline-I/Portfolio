@@ -3,7 +3,10 @@ import { Making } from "../models/making.model";
 export const MAKINGS: Making[] = [
     {
         id: 1,
-        picture: "assets/img/shifumi.png",
+        picture1: "../assets/images/making/shifumi/shifumi4.png",
+        picture2: "../assets/images/making/shifumi/shifumi3.png",
+        picture3: "../assets/images/making/shifumi/shifumi2.png",
+        picture4: "../assets/images/making/shifumi/shifumi1.png",
         alt: "Image jeu Shi-Fu-Mi",
         title: "Shi-Fu-Mi zen",
         description: "Jeu créé de manière dynamique avec JavaScript.",
@@ -11,18 +14,24 @@ export const MAKINGS: Making[] = [
     },
     {
         id: 2,
-        picture: "assets/img/calendrier.png",
+        picture1: "../assets/images/making/calendrier/calendrier.png",
+        picture2: "",
+        picture3: "",
+        picture4: "",
         alt: "Image d'un calendrier",
         title: "Calendrier mensuel",
         description: "Calendrier créé de manière dynamique avec PHP.",
-        link: "#"
+        link: "https://github.com/Adeline-I/Calendar"
     },
     {
         id: 3,
-        picture: "assets/img/formulaire.png",
+        picture1: "../assets/images/making/formulaire/formulaire.png",
+        picture2: "",
+        picture3: "",
+        picture4: "",
         alt: "Image d'un formulaire",
         title: "Formulaire d'inscription",
         description: "Formulaire créé de manière dynamique avec PHP.",
-        link: "#"
+        link: "https://github.com/Adeline-I/Formulaire"
     }
 ];

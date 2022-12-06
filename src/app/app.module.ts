@@ -8,6 +8,7 @@ import { AppRoutingModule } from './app-routing.module';
 
 import { MatButtonModule } from '@angular/material/button';
 import { MatCardModule } from '@angular/material/card';
+import { MatDialogModule } from '@angular/material/dialog';
 import { MatDividerModule } from '@angular/material/divider';
 import { MatIconModule } from '@angular/material/icon';
 import { MatSidenavModule } from '@angular/material/sidenav';
@@ -21,6 +22,7 @@ import { EducationComponent } from './pages/education/education.component';
 import { MakingComponent } from './pages/making/making.component';
 import { ContactComponent } from './pages/contact/contact.component';
 import { NotFoundComponent } from './pages/not-found/not-found.component';
+import { DialogMakingComponent } from './components/dialog-making/dialog-making.component';
 
 @NgModule({
   declarations: [
@@ -32,6 +34,7 @@ import { NotFoundComponent } from './pages/not-found/not-found.component';
     MakingComponent,
     ContactComponent,
     NotFoundComponent,
+    DialogMakingComponent,
   ],
   imports: [
     BrowserModule,
@@ -39,6 +42,7 @@ import { NotFoundComponent } from './pages/not-found/not-found.component';
     BrowserAnimationsModule,
     MatButtonModule,
     MatCardModule,
+    MatDialogModule,
     MatDividerModule,
     MatIconModule,
     MatSidenavModule,
