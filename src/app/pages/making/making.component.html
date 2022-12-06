@@ -9,7 +9,7 @@
                 <mat-card-title>{{ making.title }}</mat-card-title>
             </mat-card-header>
             <div class="image">
-                <img height="200" [src]="making.picture1" [alt]="making.alt">
+                <img [src]="making.picture1" [alt]="making.alt">
             </div>
             <mat-card-actions>
                 <button mat-raised-button color="primary" (click)="openDialog(making.title, making.description, making.link)">En savoir +</button>

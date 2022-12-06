@@ -23,13 +23,14 @@ mat-divider {
 .container {
     scroll-behavior: auto;
     overflow: auto;
+    width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
 mat-card {
-    max-width: 80%;
+    width: 80%;
     text-align: center;
     margin: 1rem 0;
 }
@@ -38,6 +39,10 @@ mat-card {
     display: flex;
     justify-content: center;
     align-items: center;
+
+    img {
+        height: 8rem;
+    }
 }
 
 mat-card-header {
@@ -66,27 +71,26 @@ mat-card-actions {
     }
 
     .container {
-        display: flex;
         flex-direction: row;
         justify-content: space-evenly;
         flex-wrap: wrap;
     }
 
     mat-card {
-        max-width: 40%;
+        width: 35%;
     }
 }
 
 @media(min-width: 800px){
-    .container {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        flex-wrap: nowrap;
-    }
-    
+
     mat-card {
-        max-width: 80%;
+        width: 80%;
+    }
+
+    .image {
+        img {
+            height: 13rem;
+        }
     }
 }
 
@@ -94,13 +98,6 @@ mat-card-actions {
     mat-divider {
         margin-top: 1rem;
         margin-bottom: 2rem;
-    }
-
-    .container {
-        display: flex;
-        flex-direction: row;
-        justify-content: space-evenly;
-        flex-wrap: wrap;
     }
 
     mat-card {
