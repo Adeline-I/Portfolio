@@ -1,1 +1,113 @@
-<p>Skills</p>
+<div id="skills">
+    <h1 class="title">
+        Compétences
+    </h1>
+    <mat-divider></mat-divider>
+    <div class="container">
+        <mat-card class="mat-elevation-z8">
+            <mat-card-header>
+                <mat-card-title>
+                    <h2>Langages</h2>
+                </mat-card-title>
+            </mat-card-header>
+            <mat-card-content>
+                <div *ngFor="let language of languageList" class="description">
+                    <div class="image">
+                        <img height="100" [src]="language.picture" [alt]="language.alt">
+                    </div>    
+                    <p>{{ language.name }}</p>    
+                </div>
+            </mat-card-content>
+        </mat-card>
+        <mat-card class="mat-elevation-z8">
+            <mat-card-header>
+                <mat-card-title>
+                    <h2>Base de données</h2>
+                </mat-card-title>
+            </mat-card-header>
+            <mat-card-content>
+                <div *ngFor="let database of databaseList" class="description">
+                    <div class="image">
+                        <img height="100" [src]="database.picture" [alt]="database.alt">
+                    </div>    
+                    <p>{{ database.name }}</p>    
+                </div>
+            </mat-card-content>
+        </mat-card>
+        <mat-card class="mat-elevation-z8">
+            <mat-card-header>
+                <mat-card-title>
+                    <h2>Frameworks</h2>
+                </mat-card-title>
+            </mat-card-header>
+            <mat-card-content>
+                <div *ngFor="let framework of frameworkList" class="description">
+                    <div class="image">
+                        <img height="100" [src]="framework.picture" [alt]="framework.alt">
+                    </div>    
+                    <p>{{ framework.name }}</p>    
+                </div>
+            </mat-card-content>
+        </mat-card>
+        <mat-card class="mat-elevation-z8">
+            <mat-card-header>
+                <mat-card-title>
+                    <h2>CMS</h2>
+                </mat-card-title>
+            </mat-card-header>
+            <mat-card-content>
+                <div *ngFor="let cms of cmsList" class="description">
+                    <div class="image">
+                        <img height="100" [src]="cms.picture" [alt]="cms.alt">
+                    </div>    
+                    <p>{{ cms.name }}</p>    
+                </div>
+            </mat-card-content>
+        </mat-card>
+        <mat-card class="mat-elevation-z8">
+            <mat-card-header>
+                <mat-card-title>
+                    <h2>Design</h2>
+                </mat-card-title>
+            </mat-card-header>
+            <mat-card-content>
+                <div *ngFor="let design of designList" class="description">
+                    <div class="image">
+                        <img height="100" [src]="design.picture" [alt]="design.alt">
+                    </div>    
+                    <p>{{ design.name }}</p>    
+                </div>
+            </mat-card-content>
+        </mat-card>
+        <mat-card class="mat-elevation-z8">
+            <mat-card-header>
+                <mat-card-title>
+                    <h2>Outils de développement</h2>
+                </mat-card-title>
+            </mat-card-header>
+            <mat-card-content>
+                <div *ngFor="let devlopmentTool of devlopmentToolList" class="description">
+                    <div class="image">
+                        <img height="100" [src]="devlopmentTool.picture" [alt]="devlopmentTool.alt">
+                    </div>    
+                    <p>{{ devlopmentTool.name }}</p>    
+                </div>
+            </mat-card-content>
+        </mat-card>
+        <mat-card class="mat-elevation-z8">
+            <mat-card-header>
+                <mat-card-title>
+                    <h2>Gestion de projet</h2>
+                </mat-card-title>
+            </mat-card-header>
+            <mat-card-content>
+                <div *ngFor="let projectManagement of projectManagementList" class="description">
+                    <div class="image">
+                        <img height="100" [src]="projectManagement.picture" [alt]="projectManagement.alt">
+                    </div>    
+                    <p>{{ projectManagement.name }}</p>    
+                </div>
+            </mat-card-content>
+        </mat-card>
+    </div>
+</div>
