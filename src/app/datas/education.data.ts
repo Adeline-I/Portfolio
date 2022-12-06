@@ -7,7 +7,7 @@ export const EDUCATIONS: Education[] = [
         degree: "FORMATION DÉVELOPPEUR D'APPLICATIONS MOBILES",
         grade: "POEC",
         place: "La Manu, Amiens",
-        picture: "../../assets/images/lamanu.png"
+        picture: "../../assets/images/education/lamanu.png"
     },
     {
         id: 2,
@@ -15,7 +15,7 @@ export const EDUCATIONS: Education[] = [
         degree: "FORMATION DÉVELOPPEUR WEB ET WEB MOBILE",
         grade: "Bac+2",
         place: "La Manu, Amiens",
-        picture: "../../assets/images/lamanu.png"
+        picture: "../../assets/images/education/lamanu.png"
     },
     {
         id: 3,
@@ -23,7 +23,7 @@ export const EDUCATIONS: Education[] = [
         degree: "LICENCE PROFESSIONNELLE ENTREPRENARIAT ET MANAGEMENT DES PME / PMI",
         grade: "Bac+3",
         place: "IUT, Amiens",
-        picture: "../../assets/images/iut.png"
+        picture: "../../assets/images/education/iut.png"
     },
     {
         id: 4,
@@ -31,7 +31,7 @@ export const EDUCATIONS: Education[] = [
         degree: "DUT TECHNIQUES DE COMMERCIALISATION",
         grade: "Bac+2",
         place: "IUT, Amiens",
-        picture: "../../assets/images/iut.png"
+        picture: "../../assets/images/education/iut.png"
     },
     {
         id: 5,
@@ -39,6 +39,6 @@ export const EDUCATIONS: Education[] = [
         degree: "DIPLÔME DE COMPTABILITÉ ET DE GESTION",
         grade: "Bac+3, niveau comptable",
         place: "Lycée Edouard Gand, Amiens",
-        picture: "../../assets/images/edouardgand.jpg"
+        picture: "../../assets/images/education/edouardgand.jpg"
     }
 ];

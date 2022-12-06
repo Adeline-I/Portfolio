@@ -4,13 +4,13 @@ export const DESIGN: Skill[] = [
     {
         id: 1,
         name: "Figma",
-        picture: "../../assets/images/figma.png",
+        picture: "../../assets/images/skills/figma.png",
         alt: "logo Figma"
     },
     {
         id: 2,
         name: "Adobe Xd",
-        picture: "../../assets/images/adobexd.png",
+        picture: "../../assets/images/skills/adobexd.png",
         alt: "logo Adobe Xd"
     }              
 ];

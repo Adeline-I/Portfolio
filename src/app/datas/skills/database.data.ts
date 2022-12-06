@@ -4,13 +4,13 @@ export const DATABASE: Skill[] = [
     {
         id: 1,
         name: "MySQL",
-        picture: "../../assets/images/mysql.png",
+        picture: "../../assets/images/skills/mysql.png",
         alt: "logo MySQL"
     },    
     {
         id: 2,
         name: "JMerise",
-        picture: "../../assets/images/jmerise.png",
+        picture: "../../assets/images/skills/jmerise.png",
         alt: "logo JMerise"
     }             
 ];
