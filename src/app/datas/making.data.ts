@@ -33,5 +33,38 @@ export const MAKINGS: Making[] = [
         title: "Formulaire d'inscription",
         description: "Formulaire créé de manière dynamique avec PHP.",
         link: "https://github.com/Adeline-I/Formulaire"
+    },
+    {
+        id: 4,
+        picture1: "",
+        picture2: "",
+        picture3: "",
+        picture4: "",
+        alt: "Image en attente",
+        title: "Précédent CV",
+        description: "CV créé de manière dynamique avec JavaScript.",
+        link: "https://adeline-i.github.io/CV/"
+    },
+    {
+        id: 5,
+        picture1: "",
+        picture2: "",
+        picture3: "",
+        picture4: "",
+        alt: "Image en attente",
+        title: "Clone de Pinterest",
+        description: "Clone du site Pinterest créé de manière dynamique avec Symfony.",
+        link: "https://github.com/Adeline-I/pinterest-clone"
+    },
+    {
+        id: 6,
+        picture1: "",
+        picture2: "",
+        picture3: "",
+        picture4: "",
+        alt: "Image en attente",
+        title: "Pokédex",
+        description: "Liste de Pokémons créée de manière dynamique avec Angular.",
+        link: "https://adeline-i.github.io/ng-pokemon-app/"
     }
 ];
