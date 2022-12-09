@@ -12,7 +12,21 @@
                 <img [src]="making.picture1" [alt]="making.alt">
             </div>
             <mat-card-actions>
-                <button mat-raised-button color="primary" (click)="openDialog(making.title, making.description, making.link)">En savoir +</button>
+                <button 
+                    mat-raised-button 
+                    color="primary" 
+                    (click)="openDialog(
+                                making.title, 
+                                making.description, 
+                                making.link,
+                                making.picture1, 
+                                making.picture2, 
+                                making.picture3,
+                                making.picture4
+                            )"
+                >
+                    En savoir +
+                </button>
             </mat-card-actions>
         </mat-card>
     </div>

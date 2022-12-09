@@ -15,6 +15,8 @@ export class DialogMakingComponent implements OnInit {
   labelLink: string = '';
   link: string = '';
 
+  slides: any = '';
+
   constructor(
     @Inject(MAT_DIALOG_DATA) public data:any
   ) {
@@ -22,7 +24,14 @@ export class DialogMakingComponent implements OnInit {
     this.text = data.text;
     this.labelClose = data.labelClose;
     this.labelLink = data.labelLink;
-    this.link = data.link
+    this.link = data.link;
+    
+  this.slides = [
+    { src: data.picture1 },
+    { src: data.picture2 },
+    { src: data.picture3 },
+    { src: data.picture4 }
+  ];
   }
 
   ngOnInit(): void {

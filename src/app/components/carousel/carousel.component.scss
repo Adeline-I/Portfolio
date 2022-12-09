@@ -1,0 +1,19 @@
+.carousel {
+    display: flex;
+}
+
+img {
+    height: 25rem;
+}
+
+button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 25rem;
+
+    &mat-icon {
+        font-weight: bold;
+        font-size: xx-large;
+    }
+}

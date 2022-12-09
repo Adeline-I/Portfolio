@@ -22,7 +22,15 @@ export class MakingComponent implements OnInit {
     this.makingList = this.makingService.getMakingList();
   }
 
-  openDialog(title: string, description: string, link: string) {
+  openDialog(
+    title: string, 
+    description: string, 
+    link: string,
+    picture1: string, 
+    picture2: string, 
+    picture3: string, 
+    picture4: string
+  ) {
     this.dialog.open(DialogMakingComponent, {
       disableClose: true,
       data: {
@@ -31,6 +39,10 @@ export class MakingComponent implements OnInit {
         labelClose: 'Fermer',
         labelLink: 'En voir +',
         link: link,
+        picture1: picture1,
+        picture2: picture2,
+        picture3: picture3,
+        picture4: picture4
       }
     });
   }

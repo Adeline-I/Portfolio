@@ -23,6 +23,7 @@ import { MakingComponent } from './pages/making/making.component';
 import { ContactComponent } from './pages/contact/contact.component';
 import { NotFoundComponent } from './pages/not-found/not-found.component';
 import { DialogMakingComponent } from './components/dialog-making/dialog-making.component';
+import { CarouselComponent } from './components/carousel/carousel.component';
 
 @NgModule({
   declarations: [
@@ -35,6 +36,7 @@ import { DialogMakingComponent } from './components/dialog-making/dialog-making.
     ContactComponent,
     NotFoundComponent,
     DialogMakingComponent,
+    CarouselComponent,
   ],
   imports: [
     BrowserModule,
