@@ -6,7 +6,7 @@
     <div class="container">
         <mat-card *ngFor="let education of educationList" class="mat-elevation-z8">
             <div class="image">
-                <img width="100" [src]="education.picture" [alt]="education.place">
+                <img [src]="education.picture" [alt]="education.place">
             </div>
             <mat-card-header>
                 <mat-card-title>{{ education.degree }}</mat-card-title>
