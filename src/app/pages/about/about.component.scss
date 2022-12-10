@@ -1,69 +1,48 @@
 #about {
-    height: 100%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    scroll-behavior: auto;
-    overflow: auto;
-}
+    .description {
+        margin-top: 1rem;  
+        text-align: justify;
 
-mat-divider {
-    margin: 0.5rem 0;
-    border-top-color: #FF3D00!important;
-    border-top: 0.2rem solid;
-    width: 6rem;
-}
+        p {
+            padding: 0 1.5rem;
+        }
 
-#about .title {
-    text-align: center;
-    font-weight: bold;
-    font-size: 2rem;
-}
+        .hobbies {
+            margin-top: 1rem;
+            text-align: center;
 
-#about .description {
-    scroll-behavior: auto;
-    overflow: auto;
-    text-align: justify;
-    font-size: 1.5rem;
-    line-height: 2.5rem;
-    padding: 0 1.5rem;
-    margin-top: 1rem;
-}
-
-#about .hobbies {
-    text-align: center;
-    margin-top: 1rem;
-
-    .hobbiesName {
-        font-weight: bold;
-        text-decoration: underline #FF3D00;
+            .hobbiesName {
+                font-weight: bold;
+                text-decoration: underline #FF3D00;
+            }        
+        }
     }
 }
 
-@media(min-width: 768px){
-    #about .title {
-        font-size: 2.5rem;
-    }
+// @media(min-width: 768px){
+//     #about .title {
+//         font-size: 2.5rem;
+//     }
 
-    mat-divider {
-        margin: 1rem 0;
-    }
+//     mat-divider {
+//         margin: 1rem 0;
+//     }
     
-    #about .description {
-        font-size: xx-large;
-        line-height: 3rem;
-    }
-}
+//     #about .description {
+//         font-size: xx-large;
+//         line-height: 3rem;
+//     }
+// }
 
-@media(min-width: 800px){
-    #about .description {
-        font-size: x-large;
-        line-height: 2.7rem;
-        padding: 0 2.5rem;
-        margin-top: 3rem;
-    }
+// @media(min-width: 800px){
+//     #about .description {
+//         font-size: x-large;
+//         line-height: 2.7rem;
+//         padding: 0 2.5rem;
+//         margin-top: 3rem;
+//     }
 
-    #about .hobbies {
-        margin-top: 3rem;
-    }
-}
+//     #about .hobbies {
+//         margin-top: 3rem;
+//     }
+// }

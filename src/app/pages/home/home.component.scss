@@ -1,61 +1,58 @@
 @import url('https://fonts.googleapis.com/css2?family=Licorice&display=swap');
 
 #home {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    height: 100%;
-}
+    scroll-behavior: auto;
+    overflow: auto;
 
-#home .name {
-    text-align: center;
-    font-family: 'Licorice', cursive;
-    font-weight: bold;
-    font-size: 5rem;
-}
-
-#home .nameJob {
-    height: 6rem;
-    text-align: center;
-    font-size: 2rem;
-    line-height: 3rem;
-    margin: 3rem 0;
-}
-
-#home .description {
-    text-align: center;
-    font-size: 1.5rem;
-    line-height: 2.5rem;
-    padding: 0 1.5rem;
-}
-
-@media(min-width: 768px){
-    #home .name {
-        font-size: 7rem;
+    .name {
+        margin-top: 1rem;
+        text-align: center;
+        font : {
+            family: 'Licorice', cursive;
+            weight: bold;
+            size: 4rem;
+        }
     }
+
+    .nameJobContainer {
+        margin: 1rem 0;
+        padding: 1rem 0;
+        
+        .nameJob {
+            height: 4rem;
+            margin: 0 1.5rem;    
+            text-align: center;
+            font-size: 1.5rem;
+        }
+    }
+}
+
+// @media(min-width: 768px){
+//     #home .name {
+//         font-size: 7rem;
+//     }
     
-    #home .nameJob {
-        font-size: 3rem;
-        line-height: 4rem;
-        margin: 5rem 0;
-        padding: 0 1rem;
-    }
+//     #home .nameJob {
+//         font-size: 3rem;
+//         line-height: 4rem;
+//         margin: 5rem 0;
+//         padding: 0 1rem;
+//     }
     
-    #home .description {
-        font-size: xx-large;
-        line-height: 3rem;
-    }
-}
+//     #home .description {
+//         font-size: xx-large;
+//         line-height: 3rem;
+//     }
+// }
 
-@media(min-width: 800px){
-    #home .nameJob {
-        height: 6rem;
-        margin: 5rem 0;
-    }
+// @media(min-width: 800px){
+//     #home .nameJob {
+//         height: 6rem;
+//         margin: 5rem 0;
+//     }
     
-    #home .description {
-        line-height: 2.7rem;
-        padding: 0 2rem;
-    }
-}
+//     #home .description {
+//         line-height: 2.7rem;
+//         padding: 0 2rem;
+//     }
+// }

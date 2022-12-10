@@ -1,93 +1,51 @@
 #contact {
-    height: 100%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    scroll-behavior: auto;
-    overflow: auto;
-}
-
-mat-divider {
-    margin: 0.5rem 0;
-    border-top-color: #FF3D00!important;
-    border-top: 0.2rem solid;
-    width: 6rem;
-}
-
-#contact .title {
-    text-align: center;
-    font-weight: bold;
-    font-size: 2rem;
-}
-
-.container {
-    scroll-behavior: auto;
-    overflow: auto;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-mat-card {
-    max-width: 80%;
-    text-align: center;
-    margin: 1rem 0;
-}
-
-.image {
-    display: flex;
-    justify-content: center;
-}
-
-mat-card-header {
-    display: flex;
-    justify-content: center;
-    margin-top: 1rem;
-}
-
-mat-card-content {
-    min-height: 5rem;
-}
-
-mat-card-actions {
-    min-height: 3rem;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-@media(min-width: 768px){
-    #contact .title {
-        font-size: 2.5rem;
-    }
-
     .container {
-        padding: 4rem 0;
+        mat-card {
+            .image {
+                display: flex;
+                justify-content: center;
+            }
+            
+            mat-card-content {
+                min-height: 5rem;
+            }
+        }
     }
-
-    mat-card {
-        max-width: 60%;
-    }
+    
 }
 
-@media(min-width: 800px){
-    mat-card {
-        margin: 3rem 0;
-    }
-}
+// @media(min-width: 768px){
+//     #contact .title {
+//         font-size: 2.5rem;
+//     }
 
-@media(min-width: 992px){
-    mat-divider {
-        margin-top: 1rem;
-    }
+//     .container {
+//         padding: 4rem 0;
+//     }
 
-    .container {
-        display: flex;
-        flex-direction: row;
-        justify-content: space-evenly;
-    }
+//     mat-card {
+//         max-width: 60%;
+//     }
+// }
 
-    mat-card {
-        max-width: 30%;
-    }
-}
+// @media(min-width: 800px){
+//     mat-card {
+//         margin: 3rem 0;
+//     }
+// }
+
+// @media(min-width: 992px){
+//     mat-divider {
+//         margin-top: 1rem;
+//     }
+
+//     .container {
+//         display: flex;
+//         flex-direction: row;
+//         justify-content: space-evenly;
+//     }
+
+//     mat-card {
+//         max-width: 30%;
+//     }
+// }

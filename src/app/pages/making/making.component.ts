@@ -7,7 +7,7 @@ import { MakingService } from './making.service';
 @Component({
   selector: 'app-making',
   templateUrl: './making.component.html',
-  styleUrls: ['./making.component.scss']
+  styleUrls: ['../pages.component.scss', './making.component.scss']
 })
 export class MakingComponent implements OnInit {
 
