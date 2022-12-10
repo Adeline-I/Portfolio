@@ -62,25 +62,40 @@ mat-sidenav-content {
     }
 }
 
-// @media(min-width: 768px){
-//     mat-sidenav-content {
-//         height: calc(100vh - 4rem);
-//     }
-//     .content {
-//         height: calc(100vh - 10rem);
-//         margin-left: 1rem;
-//     }
-// }
+@media(min-width: 768px){
+    mat-sidenav-content {
+        height: calc(100vh - 4rem);
 
-// @media(min-width: 800px){
-//     mat-sidenav-content {
-//         height: 100vh;
-//     }
-//     .content {
-//         height: calc(100vh - 6rem);
-//         margin-left: 2rem;
-//     }
-// }
+        .content {
+            height: calc(100vh - 8rem);
+        }    
+    }
+}
+
+@media(min-width: 820px){
+    mat-sidenav {
+        .name {
+            font-size: large;    
+        }
+
+        .designation {
+            font-size: medium;    
+        }
+
+        .menu-button {
+            font-size: 1.25rem;
+        }    
+    }
+    
+    mat-sidenav-content {
+        height: 100vh;
+
+        .content {
+            height: calc(100vh - 4rem);
+            margin-left: 2rem;
+        }    
+    }
+}
 
 //LIGHT THEME
 

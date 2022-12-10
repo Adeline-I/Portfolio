@@ -6,10 +6,17 @@
             .image {
                 display: flex;
                 justify-content: center;
+
+                img {
+                    width: 7rem;
+                }
             }
 
             mat-card-header {
                 min-height: 5rem;
+                mat-card-title {
+                    font-size: 1.1rem;
+                } 
             }
 
             mat-card-content {
@@ -32,51 +39,16 @@
     }
 }
 
-
-// @media(min-width: 768px){
-//     #education .title {
-//         font-size: 2.5rem;
-//     }
-
-//     .container {
-//         display: flex;
-//         flex-direction: row;
-//         justify-content: space-evenly;
-//         flex-wrap: wrap;
-//     }
-
-//     mat-card {
-//         max-width: 40%;
-//     }
-// }
-
-// @media(min-width: 800px){
-//     .container {
-//         display: flex;
-//         flex-direction: column;
-//         align-items: center;
-//         flex-wrap: nowrap;
-//     }
-    
-//     mat-card {
-//         max-width: 80%;
-//     }
-// }
-
-// @media(min-width: 992px){
-//     mat-divider {
-//         margin-top: 1rem;
-//         margin-bottom: 2rem;
-//     }
-
-//     .container {
-//         display: flex;
-//         flex-direction: row;
-//         justify-content: space-evenly;
-//         flex-wrap: wrap;
-//     }
-
-//     mat-card {
-//         max-width: 35%;
-//     }
-// }
+@media(min-width: 820px){
+    #education {
+        .container {
+            mat-card {
+                .image {    
+                    img {
+                        width: 10rem;
+                    }
+                }
+            }
+        }
+    }    
+}
