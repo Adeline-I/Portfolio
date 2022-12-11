@@ -1,0 +1,16 @@
+<!-- paginator -->
+<div class="paginator">
+    <div *ngFor="let page of pageSlice" class="pageSlice">
+        <img [src]="page.picture" alt="">
+        <p class="description">{{ page.description }}</p>
+    </div>
+
+    <mat-paginator
+        [length]="this.pictureArray[0].length"
+        [pageSize]="1"
+        [showFirstLastButtons]="showFirstLastButtons"
+        [hidePageSize]="hidePageSize"
+        (page)="OnPageChange($event)"
+    >
+    </mat-paginator>
+</div>

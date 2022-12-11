@@ -10,28 +10,21 @@ import { MAT_DIALOG_DATA } from '@angular/material/dialog';
 export class DialogMakingComponent implements OnInit {
 
   title: string = '';
-  text: string = '';
   labelClose: string = '';
   labelLink: string = '';
   link: string = '';
 
-  slides: any = '';
+  pictureArray: any = [];
 
   constructor(
     @Inject(MAT_DIALOG_DATA) public data:any
   ) {
     this.title = data.title;
-    this.text = data.text;
     this.labelClose = data.labelClose;
     this.labelLink = data.labelLink;
     this.link = data.link;
     
-  this.slides = [
-    { src: data.picture1 },
-    { src: data.picture2 },
-    { src: data.picture3 },
-    { src: data.picture4 }
-  ];
+    this.pictureArray = [data.pictureArray];
   }
 
   ngOnInit(): void {

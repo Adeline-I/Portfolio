@@ -11,6 +11,7 @@ import { MatCardModule } from '@angular/material/card';
 import { MatDialogModule } from '@angular/material/dialog';
 import { MatDividerModule } from '@angular/material/divider';
 import { MatIconModule } from '@angular/material/icon';
+import { MatPaginatorIntl, MatPaginatorModule } from '@angular/material/paginator';
 import { MatSidenavModule } from '@angular/material/sidenav';
 import { MatSlideToggleModule } from '@angular/material/slide-toggle';
 import { MatToolbarModule } from '@angular/material/toolbar';
@@ -23,7 +24,8 @@ import { MakingComponent } from './pages/making/making.component';
 import { ContactComponent } from './pages/contact/contact.component';
 import { NotFoundComponent } from './pages/not-found/not-found.component';
 import { DialogMakingComponent } from './components/dialog-making/dialog-making.component';
-import { CarouselComponent } from './components/carousel/carousel.component';
+import { PaginatorComponent } from './components/paginator/paginator.component';
+import { getFrenchPaginatorIntl } from './components/paginator/french-paginator-intl.component';
 
 @NgModule({
   declarations: [
@@ -36,7 +38,7 @@ import { CarouselComponent } from './components/carousel/carousel.component';
     ContactComponent,
     NotFoundComponent,
     DialogMakingComponent,
-    CarouselComponent,
+    PaginatorComponent,
   ],
   imports: [
     BrowserModule,
@@ -47,12 +49,15 @@ import { CarouselComponent } from './components/carousel/carousel.component';
     MatDialogModule,
     MatDividerModule,
     MatIconModule,
+    MatPaginatorModule,
     MatSidenavModule,
     MatSlideToggleModule,
     MatToolbarModule,
     RouterModule
   ],
-  providers: [],
+  providers: [
+    { provide: MatPaginatorIntl, useValue: getFrenchPaginatorIntl() }
+  ],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

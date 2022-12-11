@@ -1,0 +1,76 @@
+.paginator {
+    .pageSlice {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 0 1rem;
+    
+        img {
+            height: 7.5rem;
+        }
+    
+        .description {
+            margin-top: 0.5rem;
+            align-self: start;
+        }
+    }
+    
+    mat-paginator {
+        display: flex;
+        justify-content: center;
+    }
+}
+
+@media(min-width: 768px){
+    .paginator {
+        .pageSlice {        
+            img {
+                height: 15rem;
+            }
+
+            .description {
+                font-size: medium;
+            }
+        }
+    }
+    mat-paginator {
+font-size: medium;
+    }
+}
+
+@media(min-width: 820px){
+    .paginator {
+        .pageSlice {        
+            img {
+                height: 18rem;
+            }
+
+            .description {
+                font-size: large;
+            }
+        }
+    }
+    mat-paginator {
+font-size: large;
+    }
+}
+
+@media(min-width: 1024px){
+    .paginator {
+        .pageSlice {        
+            img {
+                height: 20rem;
+            }
+        }
+    }
+}
+
+@media(min-width: 1440px){
+    .paginator {
+        .pageSlice {        
+            img {
+                height: 23rem;
+            }
+        }
+    }
+}

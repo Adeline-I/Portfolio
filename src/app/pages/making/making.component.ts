@@ -24,25 +24,17 @@ export class MakingComponent implements OnInit {
 
   openDialog(
     title: string, 
-    description: string, 
     link: string,
-    picture1: string, 
-    picture2: string, 
-    picture3: string, 
-    picture4: string
+    pictureArray: any[]
   ) {
     this.dialog.open(DialogMakingComponent, {
       disableClose: true,
       data: {
         title: title,
-        text: description,
         labelClose: 'Fermer',
         labelLink: 'En voir +',
         link: link,
-        picture1: picture1,
-        picture2: picture2,
-        picture3: picture3,
-        picture4: picture4
+        pictureArray: pictureArray
       }
     });
   }

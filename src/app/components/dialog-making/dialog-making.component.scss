@@ -1,0 +1,30 @@
+#dialog {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    .matDialogTitle {
+        font-weight: bold;
+        text-decoration: underline #FF3D00;    
+    }
+
+    mat-dialog-content {
+        padding: 0;
+    }
+}
+
+@media(min-width: 768px){
+    #dialog {
+        .matDialogTitle {
+            font-size: 1.5rem;  
+        }
+    }
+}
+
+@media(min-width: 820){
+    #dialog {
+        .matDialogTitle {
+            font-size: 2rem;  
+        }
+    }
+}

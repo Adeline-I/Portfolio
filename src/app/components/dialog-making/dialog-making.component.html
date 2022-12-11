@@ -1,12 +1,11 @@
 <div id="dialog">
-    <h2 mat-dialog-title>{{ title }}</h2>
+    <h2 mat-dialog-title class="matDialogTitle">{{ title }}</h2>
     <mat-dialog-content class="mat-typography">
         <div class="carouselContainer">
-            <app-carousel [slides]="slides"></app-carousel>
+            <app-paginator [pictureArray]="pictureArray"></app-paginator>
         </div>
-        <p>{{ text }}</p>
     </mat-dialog-content>
-    <mat-dialog-actions align="center">
+    <mat-dialog-actions>
         <button mat-raised-button mat-dialog-close color="accent">{{ labelClose }}</button>
         <a [href]="link" target="_blank" mat-raised-button cdkFocusInitial color="primary">{{ labelLink }}</a>
     </mat-dialog-actions>

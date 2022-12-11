@@ -1,11 +1,8 @@
 export class Making {
     id!: number;
-    picture1!: string;
-    picture2!: string;
-    picture3!: string;
-    picture4!: string;
+    picture!: string;
+    pictureArray!: any[];
     alt!: string;
     title!: string;
-    description!: string;
     link!: string;
 }
