@@ -24,6 +24,10 @@ export class AppComponent implements OnInit {
   }
 
   setDefaultTheme() {
+    localStorage.setItem('theme', this.theme);
+    localStorage.setItem('sidenavColor', this.sidenavColor);
+    localStorage.setItem('backgroundColor', this.backgroundColor);
+
     if (localStorage.getItem('theme') &&
         localStorage.getItem('sidenavColor') &&
         localStorage.getItem('backgroundColor')
@@ -33,12 +37,8 @@ export class AppComponent implements OnInit {
       body.classList.add(this.theme);
 
       this.sidenavColor = localStorage.getItem('sidenavColor') as string;
-      const sidenav = document.getElementsByTagName('mat-sidenav')[0];
-      sidenav.classList.add(this.sidenavColor);
 
       this.backgroundColor = localStorage.getItem('backgroundColor') as string;
-      const background = document.getElementsByTagName('mat-sidenav-container')[0];
-      background.classList.add(this.backgroundColor);
     }
   }
 
@@ -51,20 +51,14 @@ export class AppComponent implements OnInit {
     body.classList.add(this.theme);
     localStorage.setItem('theme', this.theme);
 
-    const sidenav = document.getElementsByTagName('mat-sidenav')[0];
-    sidenav.classList.remove(this.sidenavColor);
     this.sidenavColor === 'sidenav-light-color' ?
                     this.sidenavColor = 'sidenav-dark-color' :
                     this.sidenavColor = 'sidenav-light-color';
-    sidenav.classList.add(this.sidenavColor);
     localStorage.setItem('sidenavColor', this.sidenavColor);
 
-    const background = document.getElementsByTagName('mat-sidenav-container')[0];
-    background.classList.remove(this.backgroundColor);
     this.backgroundColor === 'background-light' ?
                     this.backgroundColor = 'background-dark' :
                     this.backgroundColor = 'background-light';
-    background.classList.add(this.backgroundColor);
     localStorage.setItem('backgroundColor', this.backgroundColor);
   }
 

@@ -9,8 +9,20 @@
             </mat-icon>
         </button>
     </mat-toolbar>
-    <mat-sidenav-container>
-        <mat-sidenav #sidenav="matSidenav" class="mat-elevation-z8">
+    <mat-sidenav-container 
+        [ngClass]="{
+            'background-light': this.backgroundColor == 'background-light',
+            'background-dark': this.backgroundColor == 'background-dark'
+        }"
+    >
+        <mat-sidenav 
+            #sidenav="matSidenav" 
+            class="mat-elevation-z8"
+            [ngClass]="{
+                'sidenav-light-color': this.sidenavColor == 'sidenav-light-color',
+                'sidenav-dark-color': this.sidenavColor == 'sidenav-dark-color'
+            }"    
+        >
             <div class="themeMode">
                 <mat-icon>light_mode</mat-icon>
                 <mat-slide-toggle (change)="switchTheme()" class="appBth"></mat-slide-toggle>
