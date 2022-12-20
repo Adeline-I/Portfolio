@@ -62,3 +62,9 @@
         }
     }
 }
+
+@media(min-width: 820px) and (max-width: 992px) and (orientation: landscape) {
+    #home {
+        display: block;
+    }
+}
