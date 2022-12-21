@@ -7,19 +7,19 @@ export const MAKINGS: Making[] = [
         pictureArray: [
             {
                 picture: "../assets/images/making/shifumi/shifumi1.png",
-                description: "Texte 1"
+                description: `Ce Shi Fu Mi a été créé de manière dynamique en javascript. En ouvrant le jeu, une fenêtre apparaît afin de laisser le choix au joueur d'écrire un pseudo de maximum 15 caractères. Après cela, le joueur clique sur le bouton "Envoyer".`
             },
             {
                 picture: "../assets/images/making/shifumi/shifumi2.png",
-                description: "Texte 2"
+                description: `Après avoir cliqué sur le bouton "Envoyer", une autre fenêtre apparaît afin d'expliquer les règles du jeu. Cette dernière peut être fermé en appuyant sur le bouton "Fermer", sur la croix en haut à droite ou en dehors de la fenêtre.`
             },
             {
                 picture: "../assets/images/making/shifumi/shifumi3.png",
-                description: "Texte 3"
+                description: `Après avoir eu les informations nécessaires, le joueur atteint l'affichage principal. Si le joueur a choisi un pseudo, ce dernier est affiché, sinon le mot "Player" sera inscrit du côté où le joueur peut jouer. Le bouton "Recommencer" permet de relancer une partie et ne peut être cliquable uniquement si celle-ci est terminée. Le joueur a également la possibilité de voir à nouveau les règles du jeu en cliquant sur le personnange en méditation en bas de la fenêtre. Afin de lancer la partie, il reste au joueur à cliquer sur l'une des trois images correspondant à pierre (les trois pierres empilées), feuille (le bonsaï) ou ciseaux (le râteau).`
             },
             {
                 picture: "../assets/images/making/shifumi/shifumi4.png",
-                description: "Texte 4"
+                description: `Lorsque le joueur a fait son choix entre les trois possibilités, le choix aléatoire de "l'ordinateur" est affiché. Une partie est composée de trois manches. Le résultat de la manche est affiché au centre de la fenêtre. Si la manche est gagnée, un point est ajouté sous le nom du gagnant à côté de "Manche(s)". Au bout des trois manches, si la partie est gagnée, un point est ajouté sous le nom du gagnant à côté de "Partie(s)" et le nombre de manches gagnées est remis à zéro. Si le joueur veut continuer à jouer, il appuie sur le bouton "Recommencer".`
             }
         ],         
         alt: "Image du jeu Shi-Fu-Mi",
