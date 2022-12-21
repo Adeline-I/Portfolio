@@ -32,19 +32,15 @@ export const MAKINGS: Making[] = [
         pictureArray: [
             {
                 picture: "../assets/images/making/calendrier/calendrier1.png",
-                description: "Texte 1"
+                description: `Ce calendrier a été créé de manière dynamique en PHP. La première vue affiche le calendrier du mois courant en mettant en évidence le jour courant. Les jours des mois précédent et suivant sont également affichés et grisés. Il est possible d'atteindre le mois précédent ou suivant en cliquant sur leur bouton respectif. Les menus déroulants affichent le mois et l'année sélectionnés et permettent de choisir le mois d'une année dans un interval de plus ou moins 100 ans par rapport à l'année actuelle. Puis en cliquant sur le bouton "Générer", le calendrier choisi s'affiche. Le bouton "Rendez-vous" affiche une fenêtre permettant la prise de rendez-vous (ici, des rendez-vous médicaux).`
             },
             {
                 picture: "../assets/images/making/calendrier/calendrier2.png",
-                description: "Texte 2"
+                description: `[Cette fonctionnalité n'est pas intégrée actuellement, une base de données doit lui être reliée en lui ajoutant d'autres composants] Cette vue affiche la fenêtre permettant la prise de rendez-vous. Celle-ci permet, grâce à un formulaire, d'inscrire le nom, le prénom, la date (qui ne peut pas être antérieure à la date du jour) et le type de rendez-vous avant de le valider grâce au bouton "Enregistrer". Après validation, le rendez-vous s'affiche sur le calendrier à la date choisi.`
             },
             {
                 picture: "../assets/images/making/calendrier/calendrier3.png",
-                description: "Texte 3"
-            },
-            {
-                picture: "../assets/images/making/calendrier/calendrier4.png",
-                description: "Texte 4"
+                description: `Sur cette affichage, le mois (et, ici, l'année) suivant le mois courant est visible. On peut y voir les derniers jours du mois précédents et les premiers jours du mois suivant en grisés.`
             }
         ],         
         alt: "Image d'un calendrier",
