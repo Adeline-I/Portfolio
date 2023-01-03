@@ -7,19 +7,19 @@ export const MAKINGS: Making[] = [
         pictureArray: [
             {
                 picture: "../assets/images/making/shifumi/shifumi1.png",
-                description: `Ce Shi Fu Mi a été créé de manière dynamique en javascript. Le joueur a la possibilité de choisir ou non un pseudo.`
+                description: `Ce Shi Fu Mi a été créé de manière dynamique en javascript.`
             },
             {
                 picture: "../assets/images/making/shifumi/shifumi2.png",
-                description: `Les règles du jeu.`
+                description: ``
             },
             {
                 picture: "../assets/images/making/shifumi/shifumi3.png",
-                description: `Affichage principal avant le début d'une partie.`
+                description: ``
             },
             {
                 picture: "../assets/images/making/shifumi/shifumi4.png",
-                description: `Affichage principal après avoir joué une partie.`
+                description: `Le jeu est disponible en cliquant sur le bouton "En voir +".`
             }
         ],         
         alt: "Image du jeu Shi-Fu-Mi",
@@ -32,15 +32,15 @@ export const MAKINGS: Making[] = [
         pictureArray: [
             {
                 picture: "../assets/images/making/calendrier/calendrier1.png",
-                description: `Ce calendrier a été créé de manière dynamique en PHP. Le calendrier met en valeur le jour actuel (ici, le jour de la capture d'écran) avec la vue des jours du mois précédent et du mois suivant.`
+                description: `Ce calendrier a été créé de manière dynamique en PHP.`
             },
             {
                 picture: "../assets/images/making/calendrier/calendrier2.png",
-                description: `Possibilité de mettre en place des ajouts d'événements. [Cette fonctionnalité n'est pas intégrée actuellement, une base de données doit lui être reliée en lui ajoutant d'autres composants]`
+                description: ``
             },
             {
                 picture: "../assets/images/making/calendrier/calendrier3.png",
-                description: `Calendrier du mois suivant le jour actuel.`
+                description: `Le code est disponible en cliquant sur le bouton "en voir +". N'hésitez pas à me contacter pour de plus amples informations.`
             }
         ],         
         alt: "Image d'un calendrier",
@@ -53,19 +53,19 @@ export const MAKINGS: Making[] = [
         pictureArray: [
             {
                 picture: "../assets/images/making/formulaire/formulaire1.png",
-                description: "Formulaire créé de manière dynamique avec PHP."
+                description: `Formulaire créé de manière dynamique en PHP.`
             },
             {
                 picture: "../assets/images/making/formulaire/formulaire2.png",
-                description: "Texte 2"
+                description: ``
             },
             {
                 picture: "../assets/images/making/formulaire/formulaire3.png",
-                description: "Texte 3"
+                description: ``
             },
             {
                 picture: "../assets/images/making/formulaire/formulaire4.png",
-                description: "Texte 4"
+                description: `Le code est disponible en cliquant sur le bouton "en voir +". N'hésitez pas à me contacter pour de plus amples informations.`
             }
         ],         
         alt: "Image d'un formulaire",
@@ -78,51 +78,55 @@ export const MAKINGS: Making[] = [
         pictureArray: [
             {
                 picture: "../assets/images/making/cabinetMedical/cabinetMedical1.png",
-                description: "Texte 1"
+                description: `Application de prise de rendez-vous et d'enregistrement de patients créée de manière dynamique en PHP.`
             },
             {
                 picture: "../assets/images/making/cabinetMedical/cabinetMedical2.png",
-                description: "Texte 2"
+                description: ``
             },
             {
                 picture: "../assets/images/making/cabinetMedical/cabinetMedical3.png",
-                description: "Texte 3"
+                description: ``
             },
             {
                 picture: "../assets/images/making/cabinetMedical/cabinetMedical4.png",
-                description: "Texte 4"
+                description: ``
             },
             {
                 picture: "../assets/images/making/cabinetMedical/cabinetMedical5.png",
-                description: "Texte 1"
+                description: ``
             },
             {
                 picture: "../assets/images/making/cabinetMedical/cabinetMedical6.png",
-                description: "Texte 2"
+                description: ``
             },
             {
                 picture: "../assets/images/making/cabinetMedical/cabinetMedical7.png",
-                description: "Texte 3"
+                description: ``
             },
             {
                 picture: "../assets/images/making/cabinetMedical/cabinetMedical8.png",
-                description: "Texte 4"
+                description: ``
             },
             {
                 picture: "../assets/images/making/cabinetMedical/cabinetMedical9.png",
-                description: "Texte 1"
+                description: ``
             },
             {
                 picture: "../assets/images/making/cabinetMedical/cabinetMedical10.png",
-                description: "Texte 2"
+                description: ``
             },
             {
                 picture: "../assets/images/making/cabinetMedical/cabinetMedical11.png",
-                description: "Texte 3"
+                description: ``
             },
             {
                 picture: "../assets/images/making/cabinetMedical/cabinetMedical12.png",
-                description: "Texte 4"
+                description: ``
+            },
+            {
+                picture: "../assets/images/making/cabinetMedical/cabinetMedical13.png",
+                description: `Le code est disponible en cliquant sur le bouton "en voir +". N'hésitez pas à me contacter pour de plus amples informations.`
             }
         ],         
         alt: "Image de la liste des patients d'un cabinet médical",
@@ -136,27 +140,27 @@ export const MAKINGS: Making[] = [
         pictureArray: [
             {
                 picture: "../assets/images/making/precedentCV/precedentCV1.png",
-                description: "Texte 1"
+                description: `Ce CV a été créé de manière dynamique en javascript.`
             },
             {
                 picture: "../assets/images/making/precedentCV/precedentCV2.png",
-                description: "Texte 2"
+                description: ``
             },
             {
                 picture: "../assets/images/making/precedentCV/precedentCV3.png",
-                description: "Texte 3"
+                description: ``
             },
             {
                 picture: "../assets/images/making/precedentCV/precedentCV4.png",
-                description: "Texte 4"
+                description: ``
             },
             {
                 picture: "../assets/images/making/precedentCV/precedentCV5.png",
-                description: "Texte 3"
+                description: ``
             },
             {
                 picture: "../assets/images/making/precedentCV/precedentCV6.png",
-                description: "Texte 4"
+                description: `Le CV est disponible en cliquant sur le bouton "En voir +".`
             }
         ],         
         alt: "Image de la page d'accueil du CV",
@@ -169,111 +173,111 @@ export const MAKINGS: Making[] = [
         pictureArray: [
             {
                 picture: "../assets/images/making/panterest/panterest1.png",
-                description: "Texte 1"
+                description: `Ce clone de l'application "Pinterest" a été créé de manière dynamique avec Symfony.`
             },
             {
                 picture: "../assets/images/making/panterest/panterest2.png",
-                description: "Texte 2"
+                description: ``
             },
             {
                 picture: "../assets/images/making/panterest/panterest3.png",
-                description: "Texte 3"
+                description: ``
             },
             {
                 picture: "../assets/images/making/panterest/panterest4.png",
-                description: "Texte 4"
+                description: ``
             },
             {
                 picture: "../assets/images/making/panterest/panterest5.png",
-                description: "Texte 2"
+                description: ``
             },
             {
                 picture: "../assets/images/making/panterest/panterest6.png",
-                description: "Texte 3"
+                description: ``
             },
             {
                 picture: "../assets/images/making/panterest/panterest7.png",
-                description: "Texte 4"
+                description: ``
             },
             {
                 picture: "../assets/images/making/panterest/panterest8.png",
-                description: "Texte 2"
+                description: ``
             },
             {
                 picture: "../assets/images/making/panterest/panterest9.png",
-                description: "Texte 3"
+                description: ``
             },
             {
                 picture: "../assets/images/making/panterest/panterest10.png",
-                description: "Texte 4"
+                description: ``
             },
             {
                 picture: "../assets/images/making/panterest/panterest11.png",
-                description: "Texte 2"
+                description: ``
             },
             {
                 picture: "../assets/images/making/panterest/panterest12.png",
-                description: "Texte 3"
+                description: ``
             },
             {
                 picture: "../assets/images/making/panterest/panterest13.png",
-                description: "Texte 4"
+                description: ``
             },
             {
                 picture: "../assets/images/making/panterest/panterest14.png",
-                description: "Texte 2"
+                description: ``
             },
             {
                 picture: "../assets/images/making/panterest/panterest15.png",
-                description: "Texte 3"
+                description: ``
             },
             {
                 picture: "../assets/images/making/panterest/panterest16.png",
-                description: "Texte 4"
+                description: ``
             },
             {
                 picture: "../assets/images/making/panterest/panterest17.png",
-                description: "Texte 2"
+                description: ``
             },
             {
                 picture: "../assets/images/making/panterest/panterest18.png",
-                description: "Texte 3"
+                description: ``
             },
             {
                 picture: "../assets/images/making/panterest/panterest19.png",
-                description: "Texte 4"
+                description: ``
             },
             {
                 picture: "../assets/images/making/panterest/panterest20.png",
-                description: "Texte 2"
+                description: ``
             },
             {
                 picture: "../assets/images/making/panterest/panterest21.png",
-                description: "Texte 3"
+                description: ``
             },
             {
                 picture: "../assets/images/making/panterest/panterest22.png",
-                description: "Texte 4"
+                description: ``
             },
             {
                 picture: "../assets/images/making/panterest/panterest23.png",
-                description: "Texte 2"
+                description: ``
             },
             {
                 picture: "../assets/images/making/panterest/panterest24.png",
-                description: "Texte 3"
+                description: ``
             },
             {
                 picture: "../assets/images/making/panterest/panterest25.png",
-                description: "Texte 4"
+                description: ``
             },
             {
                 picture: "../assets/images/making/panterest/panterest26.png",
-                description: "Texte 2"
+                description: ``
             },
             {
                 picture: "../assets/images/making/panterest/panterest27.png",
-                description: "Texte 3"
+                description: `Le code est disponible en cliquant sur le bouton "en voir +". N'hésitez pas à me contacter pour de plus amples informations.`
             }
         ],       
         alt: "Image des épingles Panterest",
@@ -286,51 +290,51 @@ export const MAKINGS: Making[] = [
         pictureArray: [
             {
                 picture: "../assets/images/making/pokedex/pokedex1.png",
-                description: "Texte 1"
+                description: `Ce Pokedex a été créé de manière dynamique avec Angular.`
             },
             {
                 picture: "../assets/images/making/pokedex/pokedex2.png",
-                description: "Texte 2"
+                description: ``
             },
             {
                 picture: "../assets/images/making/pokedex/pokedex3.png",
-                description: "Texte 3"
+                description: ``
             },
             {
                 picture: "../assets/images/making/pokedex/pokedex4.png",
-                description: "Texte 4"
+                description: ``
             },
             {
                 picture: "../assets/images/making/pokedex/pokedex5.png",
-                description: "Texte 2"
+                description: ``
             },
             {
                 picture: "../assets/images/making/pokedex/pokedex6.png",
-                description: "Texte 3"
+                description: ``
             },
             {
                 picture: "../assets/images/making/pokedex/pokedex7.png",
-                description: "Texte 4"
+                description: ``
             },
             {
                 picture: "../assets/images/making/pokedex/pokedex8.png",
-                description: "Texte 2"
+                description: ``
             },
             {
                 picture: "../assets/images/making/pokedex/pokedex9.png",
-                description: "Texte 3"
+                description: ``
             },
             {
                 picture: "../assets/images/making/pokedex/pokedex10.png",
-                description: "Texte 4"
+                description: ``
             },
             {
                 picture: "../assets/images/making/pokedex/pokedex11.png",
-                description: "Texte 2"
+                description: ``
             },
             {
                 picture: "../assets/images/making/pokedex/pokedex12.png",
-                description: "Texte 3"
+                description: `Le Pokedex est disponible en cliquant sur le bouton "En voir +".`
             }
         ],
         alt: "Image du Pokédex",
