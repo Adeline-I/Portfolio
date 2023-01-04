@@ -19,7 +19,7 @@ export const MAKINGS: Making[] = [
             },
             {
                 picture: "../assets/images/making/shifumi/shifumi4.png",
-                description: `Le jeu est disponible en cliquant sur le bouton "En voir +".`
+                description: `Le jeu est disponible en cliquant sur le bouton "En voir +". N'hésitez pas à me contacter pour de plus amples informations.`
             }
         ],         
         alt: "Image du jeu Shi-Fu-Mi",
@@ -160,7 +160,7 @@ export const MAKINGS: Making[] = [
             },
             {
                 picture: "../assets/images/making/precedentCV/precedentCV6.png",
-                description: `Le CV est disponible en cliquant sur le bouton "En voir +".`
+                description: `Le CV est disponible en cliquant sur le bouton "En voir +". N'hésitez pas à me contacter pour de plus amples informations.`
             }
         ],         
         alt: "Image de la page d'accueil du CV",
@@ -334,7 +334,7 @@ export const MAKINGS: Making[] = [
             },
             {
                 picture: "../assets/images/making/pokedex/pokedex12.png",
-                description: `Le Pokedex est disponible en cliquant sur le bouton "En voir +".`
+                description: `Le Pokedex est disponible en cliquant sur le bouton "En voir +". N'hésitez pas à me contacter pour de plus amples informations.`
             }
         ],
         alt: "Image du Pokédex",
