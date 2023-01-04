@@ -48,7 +48,18 @@ mat-sidenav {
         mat-icon {
             margin-right: 0.5rem;
         }
-    }    
+    }
+    
+    .linkMode {
+        margin-top: 1rem;
+        display: flex;
+        justify-content: space-evenly;
+
+        .linkTheme, .linkTheme:hover {
+            background-color: transparent;
+            border: none;
+        }
+    }   
 }
 
 mat-sidenav-content {
