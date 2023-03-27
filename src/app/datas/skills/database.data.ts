@@ -12,5 +12,11 @@ export const DATABASE: Skill[] = [
         name: "JMerise",
         picture: "../../assets/images/skills/jmerise.png",
         alt: "logo JMerise"
-    }             
+    },    
+    {
+        id: 3,
+        name: "SQL Server",
+        picture: "./assets/images/skills/sqlserver.png",
+        alt: "logo SQL Server"
+    }              
 ];

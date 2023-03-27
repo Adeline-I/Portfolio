@@ -24,5 +24,12 @@ export const FRAMEWORK: Skill[] = [
         name: "Angular",
         picture: "../../assets/images/skills/angular.png",
         alt: "logo Angular"
+    }
+    ,
+    {
+        id: 5,
+        name: "WPF",
+        picture: "./assets/images/skills/wpf.png",
+        alt: "logo WPF"
     }               
 ];

@@ -24,5 +24,11 @@ export const LANGUAGE: Skill[] = [
         name: "PHP 7",
         picture: "../../assets/images/skills/php.png",
         alt: "logo PHP 7"
+    },        
+    {
+        id: 5,
+        name: "C#",
+        picture: "./assets/images/skills/csharp.png",
+        alt: "logo C#"
     }                           
 ];

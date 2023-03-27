@@ -6,9 +6,9 @@ import { Component, OnInit } from '@angular/core';
 })
 export class HomeComponent implements OnInit {
 
-  typewriter_text: string = "Développeuse Web - Web Mobile";
+  typewriter_text: string = "Développeuse Fullstack";
   typewriter_display: string = "";
-
+  
   constructor() { }
 
   ngOnInit(): void {
